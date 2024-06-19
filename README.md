@@ -91,7 +91,7 @@ Os guias a seguir ilustram como utilizar algumas funcionalidades concretamente:
 
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone git@github.com:leopaulasilva/autocomplete.git
    cd autocomplete
 
 2. Execute:
