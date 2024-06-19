@@ -2,6 +2,7 @@
 
 Este repositório contém uma API RESTful desenvolvida em Java utilizando o framework Spring Boot, projetada para oferecer funcionalidades de autocomplete sobre uma lista de pessoas.
 
+
 ## Busca Binária (Binary Search) e Suas Vantagens
 
 A busca binária é um algoritmo eficiente para encontrar um elemento em um conjunto ordenado de dados. Funciona dividindo repetidamente pela metade o espaço de busca até que o elemento desejado seja encontrado ou não exista mais espaço para busca. Aqui estão algumas vantagens da busca binária:
@@ -11,6 +12,7 @@ A busca binária é um algoritmo eficiente para encontrar um elemento em um conj
 - **Ordenação Requerida**: Uma das principais condições para aplicar a busca binária é que os dados estejam ordenados. Isso permite dividir o espaço de busca de maneira eficiente.
 
 - **Aplicação em Diversos Contextos**: Além de buscas em estruturas de dados como árvores binárias de busca, a busca binária é fundamental em muitos algoritmos de ordenação e em outras aplicações onde a ordenação é um pré-requisito.
+
 
 A implementação da busca binária em uma árvore de busca binária (BST) na API de autocomplete permite resultados rápidos ao buscar pessoas por nome, garantindo uma experiência eficiente para os usuários finais.
 
@@ -97,3 +99,7 @@ Os guias a seguir ilustram como utilizar algumas funcionalidades concretamente:
 2. Execute:
     ```bash
    mvn spring-boot:run
+
+### Defesa Tecnica
+
+![Logo da Minha API](src/main/docs/images/about.png)
