@@ -102,4 +102,4 @@ Os guias a seguir ilustram como utilizar algumas funcionalidades concretamente:
 
 ### Defesa Tecnica
 
-![Logo da Minha API](/src/main/docs/images/about.png)
+![Logo da Minha API](src/main/docs/images/about.png)
