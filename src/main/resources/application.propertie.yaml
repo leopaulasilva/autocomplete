@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: autocomplete
+
+# Configuração do datasource H2
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+# Configuração do console do H2 (opcional)
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  cache:
+    type: caffeine
+
+# Configuração do Log4j2 (opcional, se necessário ajustar alguma configuração)
+logging:
+  config: classpath:log4j2.xml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
